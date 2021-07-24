@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.7rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+div.nav {
+  background-color: #333;
+  color: #fff;
+}
+nav {
+  overflow: auto;
+  max-width: 80vw;
+  margin: auto;
+}
+nav h1 {
+  padding: 20px;
+  float: left;
+}
+h1.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+div.nav-links {
+  float: right;
+}
+
+nav a.links {
+  float: left;
+  text-decoration: none;
+  padding: 20px;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+}
+
+nav a.links:hover,
+nav a.active {
+  color: #f7c08a;
+  background-color: #444;
+}
+
+section.main1 {
+  background-image: url('../images/showcase.jpg');
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+section.main1 div.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 170px;
+  text-align: center;
+}
+
+section.main1 h1 span {
+  color: #f7c08a;
+}
+
+section.main1 h1.header {
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+section.main1 p.descr {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+section.main1 p.links a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 8px 16px;
+}
+
+section.main1 p.links a:hover {
+  background-color: #f7c08a;
+  color: #444;
+}
+
+section.main2 {
+  height: 400px;
+  background-color: #333;
+}
+section.main2 div.image {
+  float: left;
+  width: 50%;
+  height: 400px;
+  background-image: url('../images/photo-1.jpg');
+  background-size: cover;
+}
+
+section.main2 div.about {
+  float: right;
+  width: 50%;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
+section.main2 div.about h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+section.main2 div.about h3 span {
+  color: #f7c08a;
+}
+
+section.main2 div.about .btn {
+  margin-top: 30px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+section.main2 div.about .btn a {
+  text-decoration: none;
+  color: black;
+}
+
+section.main2 div.about .btn:hover {
+  background-color: #f7c08a;
+  color: #444;
+}
+
+section.main3 {
+  overflow: auto;
+}
+section.main3 div {
+  float: left;
+  width: 33%;
+  background-color: #fff;
+  padding: 70px;
+  text-align: center;
+}
+
+section.main3 div.meals {
+  background-color: #f7c08a;
+}
+
+section.main3 div i {
+  transform: scale(3);
+  color: #333;
+}
+
+section.main3 div h3 {
+  margin-top: 25px;
+}
+
+section.main3 div p {
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+section.mobile {
+  display: none;
+}

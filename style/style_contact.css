@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.7rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+div.nav {
+  background-color: #333;
+  color: #fff;
+}
+nav {
+  overflow: auto;
+  max-width: 80vw;
+  margin: auto;
+}
+nav h1 {
+  padding: 20px;
+  float: left;
+}
+h1.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+div.nav-links {
+  float: right;
+}
+
+nav a.links {
+  float: left;
+  text-decoration: none;
+  padding: 20px;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+}
+
+nav a.links:hover,
+nav a.active {
+  color: #f7c08a;
+  background-color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+main section.main1 {
+  padding: 50px;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+main section.main1 h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+main section.main1 h1 span {
+  color: #f7c08a;
+}
+
+main section.main1 p {
+  margin-bottom: 5px;
+}
+
+main section.main1 form input,
+main section.main1 form textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  outline: none;
+  border: solid #ddd 2px;
+  border-radius: 3px;
+  margin: 5px 0 15px 0;
+}
+
+main section.main1 form input:hover,
+main section.main1 form textarea:hover {
+  border: #f7c08a solid 2px;
+}
+
+main section.main1 form input:focus,
+main section.main1 form textarea:focus {
+  border: #f7c08a solid 2px;
+}
+
+main section.main1 form button.btn {
+  background-color: #333;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main section.main1 form button.btn:hover {
+  background-color: #f7c08a;
+  color: #444;
+  outline: none;
+  border: none;
+}
+
+main section.main2 {
+  overflow: auto;
+  text-align: center;
+}
+
+main section.main2 div.box {
+  float: left;
+  width: 33.3%;
+  background-color: #fff;
+  padding: 50px;
+}
+
+/* main section.main2 div.box.phone {
+  float: left;
+  width: 33.3%;
+  background-color: #fff;
+  padding: 50px;
+} */
+
+main section.main2 div.box:hover {
+  /* background-color: #f7c08a; */
+}
+
+main section.main2 div.box i {
+  transform: scale(4);
+  margin-bottom: 20px;
+}
+
+main section.main2 div.box h3 {
+  margin: 10px auto 30px auto;
+}

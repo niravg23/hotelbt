@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.7rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+div.nav {
+  background-color: #333;
+  color: #fff;
+}
+nav {
+  overflow: auto;
+  max-width: 80vw;
+  margin: auto;
+}
+nav h1 {
+  padding: 20px;
+  float: left;
+}
+h1.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+div.nav-links {
+  float: right;
+}
+
+nav a.links {
+  float: left;
+  text-decoration: none;
+  padding: 20px;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+}
+
+nav a.links:hover,
+nav a.active {
+  color: #f7c08a;
+  background-color: #444;
+}
+
+main section.main1 {
+  overflow: auto;
+  padding: 20px 20px;
+}
+
+main section.main1 div.text {
+  float: left;
+  width: 50%;
+  padding: 30px 20px 20px 20px;
+}
+
+main section.main1 div.image {
+  float: right;
+  width: 50%;
+}
+
+main section.main1 div.image img {
+  width: 70%;
+  border-radius: 50%;
+  height: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+section.main1 div.text h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+section.main1 div.text span {
+  color: #f7c08a;
+}
+
+section.main1 div.text p {
+  margin-bottom: 15px;
+  overflow: auto;
+}
+
+section.main2 {
+  height: 600px;
+  background-image: url('../images/test-bg.jpg');
+  padding-top: 100px;
+  text-align: center;
+}
+
+section.main2 div.text h1 {
+  width: 100%;
+}
+
+section.main2 div.testi {
+  height: 150px;
+  overflow: auto;
+  background-color: #f7c08a;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+section.main2 div.testi img {
+  float: left;
+  width: 15%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+section.main2 div.testi p.testi {
+  float: right;
+  width: 85%;
+}
+
+section.main2 h1 {
+  font-size: 40px;
+  color: #fff;
+  margin: 10px 0 40px 0;
+}
+
+section.main2 h1 span {
+  color: #f7c08a;
+}
+
+section.main2 small {
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
